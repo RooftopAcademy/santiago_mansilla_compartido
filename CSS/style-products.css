@@ -12,7 +12,7 @@
     width: 100%;
     min-height: 80vh;
 
-    padding-top: 60px;
+    padding-top: 40px;
 }
 
 .products{
@@ -65,9 +65,9 @@
     align-self: center;
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1000px) {
     .body-products{
-        background-image: url(file:///C:/Projects/Afrodita/Image/wallpaper.png);
+        background-image: url(file:///C:/Projects/santiago_mansilla_compartido/Image/wallpaper.png);
         background-repeat: no-repeat;
         background-position: top;
         background-size: 100% auto;
@@ -96,18 +96,18 @@
     }
 
     .text-pos{
-        padding: 5%;
+        padding: 0%;
     }
 }
 
-@media screen and (max-width: 1279px) {
+@media screen and (max-width: 999px) {
 
     .products{
         padding-top: 5%;
     }
 
     .body-products{
-        background-image: url(file:///C:/Projects/Afrodita/Image/wallpaper.png);
+        background-image: url(file:///C:/Projects/santiago_mansilla_compartido/Image/wallpaper.png);
         background-repeat: no-repeat;
         background-position: center, center;
         background-size: auto 100vh;
