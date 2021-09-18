@@ -1,0 +1,189 @@
+@charset "utf-8";
+
+.body-index{
+    padding: 60px 0px 0px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.container{
+    flex-grow: 1;
+    min-height: 80vh;
+
+    display: flex;
+}
+
+.central-content{
+    display: flex;
+    flex-direction: column;
+
+    flex-grow: 1;
+    min-height: 80vh;
+
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.btn{
+    display: flex;
+    flex-grow: 1;
+
+    width: 100%;
+    height: 25%;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-sty{
+    border: 0;
+    border-radius: 50px;
+    background-color: rgb(15, 45, 65);
+
+    cursor: pointer;
+}
+
+.btn-size{
+    display: flex;
+
+    width: 15%;
+    height: 25%;
+
+}
+
+.btn-sty:hover{
+    background-color: rgb(12, 36, 53);
+}
+
+.btn-pos{
+    display: flex;
+
+    min-width: 100%;
+    min-height: 100%;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.text-pos{
+    flex-grow: 4;
+}
+
+@media screen and (min-width: 1280px){
+    .body-index{
+        background-image: url(file:///C:/Projects/Afrodita/Image/wallpaper.png);
+        background-repeat: no-repeat;
+        background-position: center, center;
+        background-size: 100% auto;
+        background-attachment: fixed;
+    }
+
+    .btn-size{
+        display: flex;
+    
+        width: 15%;
+        height: 25%;
+    
+    }
+
+    .btn-sty{
+        font-size: medium;
+        text-decoration: none;
+        color: white;
+    }
+
+    .text-pos{
+        flex-grow: 4;
+        margin: 5%;
+    }
+    .text-style{
+        font-family: monospace;
+        color: white;
+        font-size: large;
+    }
+
+    .title-size{
+        font-family: monospace;
+        color: white;
+        font-size: 50px;
+    }
+}
+
+@media screen and (max-width: 1279px){
+    .body-index{
+        background-image: url(file:///C:/Projects/Afrodita/Image/wallpaper.png);
+        background-repeat: no-repeat;
+        background-position: center, center;
+        background-size: auto 100vh;
+        background-attachment: fixed;
+    }
+
+    .text-pos{
+        flex-grow: 4;
+        margin: 5%;
+    }
+    .text-style{
+        font-family: monospace;
+        color: white;
+        font-size: xx-large;
+    }
+
+    .title-size{
+        font-family: monospace;
+        color: white;
+        font-size: 70px;
+    }
+
+    .btn-size{
+        display: flex;
+    
+        width: 25%;
+        height: 25%;
+    }
+
+    .btn-sty{
+        font-size: large;
+        text-decoration: none;
+        color: white;
+    }
+}
+
+@media screen and (max-width: 750px){
+    .body-index{
+        background-image: url(file:///C:/Projects/Afrodita/Image/wallpaper.png);
+        background-repeat: no-repeat;
+        background-position: center, center;
+        background-size: auto 100vh;
+        background-attachment: fixed;
+    }
+
+    .text-pos{
+        flex-grow: 4;
+        margin: 5%;
+    }
+    .text-style{
+        font-family: monospace;
+        color: white;
+        font-size: 50px;
+    }
+
+    .title-size{
+        font-family: monospace;
+        color: white;
+        font-size: 70px;
+    }
+
+    .btn-size{
+        display: flex;
+    
+        width: 50%;
+        height: 25%;
+    
+    }
+
+    .btn-sty{
+        font-size: xx-large;
+        text-decoration: none;
+        color: white;
+    }
+}
