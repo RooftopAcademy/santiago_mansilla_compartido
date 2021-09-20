@@ -1,0 +1,1 @@
+class customerUser extends User {}

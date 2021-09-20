@@ -1,0 +1,3 @@
+class invitedUser extends User{
+    
+}
