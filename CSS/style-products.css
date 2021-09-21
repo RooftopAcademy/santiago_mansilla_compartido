@@ -66,6 +66,10 @@
 }
 
 @media screen and (min-width: 1000px) {
+    .products{
+        padding-top: 1%;
+    }
+
     .body-products{
         background-image: url(file:///C:/Projects/santiago_mansilla_compartido/Image/wallpaper.png);
         background-repeat: no-repeat;
@@ -96,7 +100,7 @@
     }
 
     .text-pos{
-        padding: 0%;
+        padding: 5%;
     }
 }
 
