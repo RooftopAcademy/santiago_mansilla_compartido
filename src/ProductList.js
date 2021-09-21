@@ -1,11 +1,12 @@
-let prodList =[
+let productList =[
+    
     {
-        id=1,
-        image='Remera.jpg',
-        name='Remera, Princess Consuela Banana Hammock',
-        desciption='Remera blanca estampada',
-        price=2500,
-        category='Remera'
+        id = 1,
+        image = 'Remera.jpg',
+        name = 'Remera, Princess Consuela Banana Hammock',
+        desciption = 'Remera blanca estampada',
+        price = 2500,
+        category = 'Remera'
     },
 
     {

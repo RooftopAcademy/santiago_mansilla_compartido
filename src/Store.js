@@ -1,6 +1,5 @@
-class Store{
+class Store {
     constructor() {
-        this.User = new User
         this.Catalog = new Catalog
         this.Cart = new Cart
     }
@@ -17,7 +16,7 @@ class Store{
 
     fetchProducts() {
 
-        prodList.forEach((p) => {
+        productList.forEach((p) => {
             let product = new Product
 
             product.setId(p.id)
@@ -25,6 +24,7 @@ class Store{
             product.setName(p.name)
             product.setDescription(p.description)
             product.setPrice(p.price)
+            product.setCategory(p.category)
 
             this.catalog.add(product)
         })
