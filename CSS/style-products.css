@@ -148,4 +148,8 @@
         color: white;
         text-decoration: none;
     }
+
+    .photo{
+        min-width: 70%;
+    }
 }

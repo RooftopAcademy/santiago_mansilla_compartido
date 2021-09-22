@@ -20,13 +20,13 @@ class Store {
             let product = new Product
 
             product.setId(p.id)
-            product.setImg(p.img)
+            product.setImage(p.image)
             product.setName(p.name)
-            product.setDescription(p.description)
+            product.setDescrip(p.description)
             product.setPrice(p.price)
             product.setCategory(p.category)
 
-            this.catalog.add(product)
+            this.Catalog.addProd(product)
         })
     }
 }

@@ -4,19 +4,19 @@ class Catalog{
     }
 
     findById(id, ){
-        let product = this.products.find(prod => {
+        let product = this.Product.find(prod => {
             return prod.id == id
         })
 
         return product
     }
 
-    add(p) {
-        this.products.push(p)
+    addProd(p) {
+        this.Product.push(p)
     }
 
     showAll() {
-        return this.products
+        return this.Product
     }
 }
 

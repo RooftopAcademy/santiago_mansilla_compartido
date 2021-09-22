@@ -1,10 +1,10 @@
 let store = new Store
 store.fetchProducts()
 
-let productList = document.getElementsByClassName('products')[0]
+let prodList = document.getElementsByClassName('products')[0]
 
 let products = store.getCatalog().showAll()
 
 products.forEach((product) => {
-    productList.innerHTML += prodCard(product)
+    prodList.innerHTML += prodCard(product)
 })
