@@ -22,7 +22,7 @@ function productDetail(product) {
 
             <a class="btn-size btn-sty">
                 <button class="btn-size btn-sty">
-                    <p id="boton" class="btn-size btn-sty"  dataProdId="${product.id}">
+                    <p id="boton" class="btn-size btn-sty"  data-prod-id="${product.id}">
                         Agregar al carrito
                     </p>
                 </button>
