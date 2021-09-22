@@ -3,7 +3,7 @@ class Catalog{
         this.Product=[]
     }
 
-    findById(id, ){
+    findById(id){
         let product = this.Product.find(prod => {
             return prod.id == id
         })
@@ -15,7 +15,7 @@ class Catalog{
         this.Product.push(p)
     }
 
-    showAll() {
+    getAll() {
         return this.Product
     }
 }

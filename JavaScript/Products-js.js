@@ -3,8 +3,10 @@ store.fetchProducts()
 
 let prodList = document.getElementsByClassName('products')[0]
 
-let products = store.getCatalog().showAll()
+let products = store.getCatalog().getAll()
 
-products.forEach((product) => {
-    prodList.innerHTML += prodCard(product)
-})
+if(window.location.pathname== '/C:/Projects/santiago_mansilla_compartido/products.html'){
+    products.forEach((product) => {
+        prodList.innerHTML += prodCard(product)
+    })
+}

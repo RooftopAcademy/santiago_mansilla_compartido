@@ -1,11 +1,11 @@
 function productDetail(product) {
-
+    console.log(product.id)
     return `
         <div class="img-block">
             <div class="mini">
-                <img class="preview" src="Image/${product.image}" alt"preview-image">
-                <img class="preview" src="Image/${product.image}" alt"preview-image">
-                <img class="preview" src="Image/${product.image}" alt"preview-image">
+                <img class="preview" src="Image/${product.image}">
+                <img class="preview" src="Image/${product.image}">
+                <img class="preview" src="Image/${product.image}">
             </div>
 
             <div class="img-princ">
@@ -20,9 +20,9 @@ function productDetail(product) {
                 <h2 class="par-sty">${product.description}</h2>
             </div>
 
-            <a class="btn-size btn-sty" href="products.html">
+            <a class="btn-size btn-sty">
                 <button class="btn-size btn-sty">
-                    <p id="boton" class="btn-size btn-sty">
+                    <p id="boton" class="btn-size btn-sty"  dataProdId="${product.id}">
                         Agregar al carrito
                     </p>
                 </button>

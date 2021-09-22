@@ -66,6 +66,9 @@ class Product{
         }
     }
 
+    getId(){
+        return this.id
+    }
     getName() {
         return this.name
     }
