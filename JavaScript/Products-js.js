@@ -10,3 +10,4 @@ if(window.location.pathname== '/C:/Projects/santiago_mansilla_compartido/product
         prodList.innerHTML += prodCard(product)
     })
 }
+

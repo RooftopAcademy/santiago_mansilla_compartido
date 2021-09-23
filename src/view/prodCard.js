@@ -1,6 +1,6 @@
 function prodCard(product) {
     return `
-    <article class="item">
+    <article class="item" >
         <a class="card text-sty" data-prod-id="${product.id}" href="details.html">
             
             <img class="photo" src="Image/${product.image}">
