@@ -7,6 +7,7 @@ class Product{
         this.stock = Number
         this.image = String
         this.category = String
+        this.comments = []
     }
 
     setId(i){
@@ -65,6 +66,13 @@ class Product{
             throw new Error('La categoria del producto debe ser una cadena de texto')
         }
     }
+    
+    async getComments() {
+        let res = await fetch('https://jsonplaceholder.typicode.com/comments')
+        let json = await res.json()
+        this.comments = json.filter(item => item.postId == this.id)
+        return this
+    }
 
     getId(){
         return this.id
@@ -87,4 +95,5 @@ class Product{
     getCategory() {
         return this.category
     }
+
 }
