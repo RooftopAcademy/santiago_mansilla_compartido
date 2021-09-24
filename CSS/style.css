@@ -121,7 +121,7 @@ body{
     transition: 0.5s;
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1024px) {
     .header{
         height: 60px;
     }
@@ -156,7 +156,7 @@ body{
         position: fixed;
         top: 60px;
         width: 50%;
-        height: calc(100% - 115px);
+        height: calc(100% - 60px);
         padding: 20px 0;
     
         overflow-y: auto;
@@ -188,14 +188,14 @@ body{
 }
 }
 
-@media screen and (max-width: 1279px) {
+@media screen and (max-width: 1023px) {
     .header{
-        height: 90px;
+        height: 80px;
     }
 
     .afro-word{
         font-size: xx-large;
-        line-height: 90px;
+        line-height: 80px;
     }
 
     .bar-icon{
@@ -204,12 +204,12 @@ body{
     }
 
     .footer{
-        height: 90px;
+        height: 80px;
     }
 
     .logo-icon{
-        height: 80px;
-        width: 90px;
+        height: 70px;
+        width: 80px;
     
         justify-self: center;
         align-self: center;

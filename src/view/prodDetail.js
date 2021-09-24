@@ -25,10 +25,9 @@ function productDetail(product) {
                     <h1 class="title-sty">${product.price}</h1>
                     <h2 class="par-sty">${product.description}</h2>
                 </div>
-
                 <a class="btn-size btn-sty">
                     <button class="btn-size btn-sty">
-                        <p id="boton" class="btn-size btn-sty"  data-prod-id="${product.id}">
+                        <p id="cartBtn" class="btn-size btn-sty"  data-prod-id="${product.id}">
                             Agregar al carrito
                         </p>
                     </button>
