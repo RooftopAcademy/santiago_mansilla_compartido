@@ -22,7 +22,7 @@ function productDetail(product) {
             <div class="text-block">
                 <div class="text-style">
                     <h1 class="title-sty">${product.name}</h1>
-                    <h1 class="title-sty">${product.price}</h1>
+                    <h1 class="title-sty">$${product.price}</h1>
                     <h2 class="par-sty">${product.description}</h2>
                 </div>
                 <a class="btn-size btn-sty">
@@ -35,6 +35,7 @@ function productDetail(product) {
             </div>
         </div>
         <div class="prodComments">
+            <h1 class="comTitle">COMENTARIOS</h1>
             ${comList}
         </div>
     `

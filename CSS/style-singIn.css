@@ -1,0 +1,19 @@
+@charset "utf-8";
+
+.body-index{
+    background-image: url(file:///C:/Projects/santiago_mansilla_compartido/Image/wallpaper.png);
+    background-repeat: no-repeat;
+    background-position: center, center;
+    background-size: 100% auto;
+    background-attachment: fixed;
+}
+
+.container{
+    background-color: rgba(0, 0, 0, 0.5);
+    flex-grow: 1;
+}
+
+.sing-form{
+    max-height: 90%;
+    background-color: white;
+}
