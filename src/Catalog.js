@@ -1,22 +1,24 @@
 class Catalog{
     constructor(){
-        this.Product=[]
+        this.products=[]
     }
 
-    findById(id, ){
-        let product = this.Product.find(prod => {
-            return prod.id == id
+    async findById(id) {
+        let prod = this.products.find(p=> {
+            if(p.id==id){
+                return p.id
+            }
         })
-
-        return product
+        await prod.getComments()
+        return prod
     }
 
-    addProd(p) {
-        this.Product.push(p)
+    addProd(prod) {
+        this.products.push(prod)
     }
 
-    showAll() {
-        return this.Product
+    getAll() {
+        return this.products
     }
 }
 

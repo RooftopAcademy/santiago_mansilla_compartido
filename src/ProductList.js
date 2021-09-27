@@ -4,7 +4,7 @@ let productList =[
         id : 1,
         image : 'Remera.jpg',
         name : 'Remera, Princess Consuela Banana Hammock',
-        description : 'Remera blanca estampada',
+        description : 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero explicabo itaque reprehenderit corporis harum. Ab in eaque, autem quasi blanditiis beatae totam porro.',
         price : 2500,
         category : 'Remera'
     },
@@ -13,7 +13,7 @@ let productList =[
         id:2,
         image:'Buzo.jpg',
         name:'Buzo, Central Perk',
-        description:'Buzo bordo estampado blanco, sin capucha',
+        description:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero explicabo itaque reprehenderit corporis harum. Ab in eaque, autem quasi blanditiis beatae totam porro.',
         price:5000,
         category:'Buzo'
     },
@@ -22,7 +22,7 @@ let productList =[
         id:3,
         image:'Taza.jpg',
         name:'Taza, Happiness is watching FRIENDS again and again',
-        description:'Taza blanca sillon',
+        description:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero explicabo itaque reprehenderit corporis harum. Ab in eaque, autem quasi blanditiis beatae totam porro.',
         price:800,
         category:'Taza'
     },
@@ -31,7 +31,7 @@ let productList =[
         id:4,
         image:'StarkIndustries.jpg',
         name:'Gorra Stark Industries',
-        description:'Gorra negra, estampe blanco',
+        description:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero explicabo itaque reprehenderit corporis harum. Ab in eaque, autem quasi blanditiis beatae totam porro.',
         price:500,
         category:'Gorra'
     },
@@ -40,7 +40,7 @@ let productList =[
         id:5,
         image:'BlackPanther.jpg',
         name:'Remera Black Panther',
-        description:'Remera negra estampada',
+        description:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero explicabo itaque reprehenderit corporis harum. Ab in eaque, autem quasi blanditiis beatae totam porro.',
         price:2500,
         category:'Remera'
     },
@@ -49,7 +49,7 @@ let productList =[
         id:6,
         image:'Avengers.jpg',
         name:'Gorra Avengers',
-        description:'Gorra negra, estampe amarillo',
+        description:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero explicabo itaque reprehenderit corporis harum. Ab in eaque, autem quasi blanditiis beatae totam porro.',
         price:500,
         category:'Gorra'
     }

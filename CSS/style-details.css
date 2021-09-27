@@ -1,18 +1,22 @@
 @charset "utf-8";
 
+.container{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
 .js-sty{
     align-self: center;
     justify-self: center;
 }
 
-.img-block{
-    background-color: rgba(0, 0, 0, 0.5);
+.prodComments{
+    padding: 2%;
 }
-.text-block{
-    background-color: rgba(0, 0, 0, 0.5);
+.comItem{
+    background-color: rgba(255, 255, 255, 0.596);
 }
 
-@media screen and (max-width: 1279px) {
+@media screen and (max-width: 1023px) {
     .body-details{
         background-image: url(file:///C:/Projects/santiago_mansilla_compartido/Image/wallpaper.png);
         background-repeat: no-repeat;
@@ -21,7 +25,8 @@
         background-attachment: fixed;
     }
 
-    .container{
+    .container,
+    .prodDetail{
         padding-top: 90px;
 
         flex-grow: 1;
@@ -32,7 +37,8 @@
         justify-content: center;
         align-content: center;
     
-        min-height: 80vh;
+        min-height: 80%;
+        min-width: 100%;
     }
     
     .img-block{
@@ -79,6 +85,7 @@
     
     
     .text-block{
+        min-height: 20vh;
         display: flex;
         flex-direction: column;
 
@@ -91,17 +98,18 @@
     }
 
     .text-style{
+        flex-grow: 1;
         color: white;
     }
 
     .title-sty{
         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-        font-size: 30px;
+        font-size: 40px;
     }
 
     .par-sty{
         font-family: 'Times New Roman', Times, serif;
-        font-size: large;
+        font-size: xx-large;
     }
 
     .word-sty{
@@ -112,8 +120,8 @@
     .btn-size{
         display: block;
 
-        height: 5vh;
-        width: 25vh;
+        height: 10vh;
+        width: 50vh;
     }
 
     .btn-sty{
@@ -121,23 +129,42 @@
         border-radius: 50px;
         background-color: rgb(15, 45, 65);
         
-        line-height: 5vh;
+        line-height: 10vh;
 
         color: white;
-        font-size: xx-large;
+        font-size: x-large;
         text-decoration: none;
 
         cursor: pointer;
     }
+
+    .comName{
+        font-size: xx-large;
+    }
+    .comEmail{
+        font-size: large;
+    }
+    .comText{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: x-large;
+    }
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1024px) {
     .body-details{
         background-image: url(file:///C:/Projects/santiago_mansilla_compartido/Image/wallpaper.png);
         background-repeat: no-repeat;
         background-position: center, center;
         background-size: 100% auto;
         background-attachment: fixed;
+        width: 100%;
+    }
+
+    .infoBlock{
+        display: flex;
+        flex-direction: row;
+
+        max-height: 90vh;
     }
 
     .container{
@@ -146,13 +173,13 @@
         flex-grow: 1;
     
         display: flex;
-        flex-direction: flex;
+        flex-direction: column;
     
         justify-content: center;
         align-content: center;
     
         min-height: 80vh;
-        max-height: 90vh;
+        width: 100%;
     }
 
     .img-block{
@@ -246,5 +273,16 @@
     .word-sty{
         text-decoration: none;
         color: white;
+    }
+
+    .comName{
+        font-size: xx-large;
+    }
+    .comEmail{
+        font-size: large;
+    }
+    .comText{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: x-large;
     }
 }
