@@ -3,7 +3,6 @@ hder.innerHTML += headerBar()
 let fter = document.getElementsByClassName('footer')[0]
 fter.innerHTML += footerBar()
 
-
 function headerBar() {
   return `
     <nav class="nav">
@@ -25,6 +24,7 @@ function headerBar() {
             </li>
             <li class="menu-item">
                 <a href="#" class="menu-link link">MI CARRITO</a>
+                <ol class="my-cart"></ol>
             </li>
             <li class="menu-item">
                 <a href="#" class="menu-link link">CERRAR SESION</a>
@@ -51,7 +51,6 @@ function footerBar() {
     </div>
   `
 }
-
 
 const navBtn = document.querySelector(".nav-btn");
 const navMenu = document.querySelector(".nav-menu");

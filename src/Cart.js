@@ -7,4 +7,8 @@ class Cart {
         if (p instanceof Product) this.products.push(p)
         else throw new Error('El dato recibido no es un producto')
     }
+
+    getProd(){
+        return this.products
+    }
 }
