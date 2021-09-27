@@ -1,24 +1,24 @@
-class catalog{
-    _products:[]
+export default class catalog{
+    _products:object[]
     constructor(){
-        this._products
+        this._products=[]
     }
 
-    async findById(id: number) {
-        let prod:object = this._products.find(p => {
+    async findById(id:number) {
+        let prod = this._products.find(p=> {
             if(p._id==id){
                 return p._id
             }
         })
-        await prod.get Comments()
+        await prod.getComments()
         return prod
     }
 
-    addProd(prod: object){
+    addProd(prod:object) {
         this._products.push(prod)
     }
 
-    getAll(){
+    get getAll() {
         return this._products
     }
 }

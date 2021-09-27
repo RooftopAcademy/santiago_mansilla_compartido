@@ -1,4 +1,4 @@
-class product{
+export default class product{
     _id: number
     _name: string
     _price: number
@@ -19,32 +19,32 @@ class product{
         this._comments=[];
     }
 
-    set id(i: number){
-        this._id=i
+    setId(i:number){
+        this._id
     }
-    set name(s: string){
-        this._name=s
+    setName(s:string){
+        this._name = s
     }
-    set price(i: number){
+    setPrice(i:number){
         this._price=i
     }
-    set description(s: string){
-        this._description=s
+    setDescrip(s:string){
+        this._description = s
     }
-    set stock(i: number){
-        this._stock=i
+    setStock(i:number){
+        this._stock = i
     }
-    set image(s: string){
-        this._image=s
+    setImage(s:string){
+        this._image = s
     }
-    set category(s: string){
-        this._category=s
+    setCategory(s:string){
+        this._category = s
     }
-
+    
     async getComments() {
         let res = await fetch('https://jsonplaceholder.typicode.com/comments')
         let json = await res.json()
-        this._comments = json.filter(item => item.postId == this.id)
+        this._comments = json.filter(item => item.postId == this._id)
         return this
     }
 

@@ -1,11 +1,14 @@
-class cart{
-    products:[]
+export default class cart{
+    _products:object[]
     constructor(){
-        this.products=[]
+        this._products=[]
     }
 
-    addProd(p:object){
-        if (p instanceof product) this.products.push(p)
-        else throw new Error("El dato recibido no es un producto")
+    set addProd(p:object){
+        this._products.push(p);
+    }
+
+    get showProd(){
+        return this._products
     }
 }
